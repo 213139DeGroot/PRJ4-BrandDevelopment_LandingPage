@@ -9,6 +9,10 @@ body {
 	background-color: #fffcf8;
 }
 
+h1 {
+	font-family: 'Horizon', sans-serif;
+}
+
 /* Changing the background colour for the header */
 
 header {
@@ -32,4 +36,47 @@ footer a:hover {
 #navbar-corporate a.active {
 	color: #800000;
 	font-weight: bold;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.hero-image {
+	position: relative;
+	width: 100%;
+}
+
+	.hero-image img {
+		width: 100%;
+	}
+
+.nav-link {
+	color: #f5f8de;
+}
+
+.navbar-brand {
+	color: #f5f8de;
+}
+
+.navbar {
+	background-color: transparent;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.bg-light {
+	background-color: #2a2b2e !important;
+}
+
+.body-text {
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	color: #f5f8de;
+	background-color: #2a2b2e;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fffcf8' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
