@@ -1,6 +1,7 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 /* Changing the main font and background colour */
 
@@ -10,7 +11,8 @@ body {
 }
 
 h1 {
-	font-family: 'Horizon', sans-serif;
+	font-family: 'Abril Fatface', cursive;
+	color: #a4386b;
 }
 
 /* Changing the background colour for the header */
@@ -22,7 +24,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #a4386b;
 }
 
 /* Effect on social media buttons */
@@ -42,41 +44,75 @@ footer a:hover {
 	border: none;
 }
 
-.hero-image {
-	position: relative;
-	width: 100%;
+.navbar-brand {
+	padding-left: 10%;
 }
 
-	.hero-image img {
-		width: 100%;
-	}
-
 .nav-link {
-	color: #f5f8de;
+	color: #e7e5df;
 }
 
 .navbar-brand {
-	color: #f5f8de;
+	color: #e7e5df;
 }
 
 .navbar {
-	background-color: transparent;
+	background-color: rgba(164, 56, 107, .5);
 	transition: background-color 0.3s ease-in-out;
 }
 
 .bg-light {
-	background-color: #2a2b2e !important;
+	background-color: #a4386b !important;
 }
 
 .body-text {
 	padding-top: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
-	text-align: center;
-	color: #f5f8de;
-	background-color: #2a2b2e;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+	color: #2a2b2e;
+	background-color: #e7e5df;
 }
 
 .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fffcf8' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23e7e5df stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+footer {
+	color: #e7e5df;
+	border-top-color: #2a2b2e;
+	background-color: #2a2b2e;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #a4386b;
+	text-align: center;
+}
+
+.carousel-caption h1 {
+	text-shadow: 1px 1px white;
+}
+
+.carousel-caption .btn {
+	display: inline-block;
+	background-color: #a4386b;
+	color: #e7e5df;
+	font-weight: bold;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 25px;
+	}
+
+.navbar-logo {
+	height: 50px;
 }
