@@ -13,6 +13,7 @@ body {
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: #a4386b;
+    text-align: center;
 }
 
 /* Changing the background colour for the header */
