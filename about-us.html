@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d04a34e19d.js" crossorigin="anonymous"></script>
+
+
+    <title>JOIN-IN</title>
+
+    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM6M47KL8R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FM6M47KL8R');
+    </script>
+    <!-- End of Google Analytics code -->
+
+</head>
+<body class="h-100 d-flex flex-column">
+
+    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-logo" src="images/join-in-logo-white.png" alt="JOIN-IN">
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="corporate.html">Corporate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        window.onscroll = function () {
+            var navbar = document.querySelector('nav');
+            if (window.pageYOffset > document.querySelector('.carousel').offsetHeight - 50) {
+                navbar.classList.add('bg-light');
+            } else {
+                navbar.classList.remove('bg-light');
+            }
+        }
+
+        document.querySelector('.navbar-toggler').addEventListener('click', function () {
+            var navbar = document.querySelector('nav');
+            var navbarCollapse = document.querySelector('#navbarNav');
+
+            if (navbarCollapse.classList.contains('show')) {
+                navbar.classList.remove('bg-light');
+            } else {
+                navbar.classList.add('bg-light');
+            }
+        });
+    </script>
+    <!-- End of navigation bar -->
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-static-caption text-center">
+                <h1 class="responsive-h1">Who are we?</h1>
+            </div>
+            <div class="carousel-item active">
+                <img src="images/cycling.jpg" class="d-block w-100" alt="Cycling at Golden Hour">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <div class="container">
+            <div class="body-text">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="headers">Our mission</h1>
+
+                    <p>
+                        Our mission is to make life easier for expats who are starting a new chapter in the Netherlands. 
+                        We want to help them adjust to their new surroundings and feel like they belong here. We know how overwhelming it can be to move to a new country and we want to make the transition as smooth as possible. 
+                        Our goal is to provide expats with the tools they need to feel confident and comfortable in their new home. 
+                        We want to help them build connections and friendships in the Dutch community and create a support system that makes them feel at home.
+
+</main>
+            </div>
+
+            <div class="body-image">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <img class="img-fluid" src="images/4-ladies.jpg" alt:"Four Ladies" />
+                </main>
+            </div>
+
+            <div class="body-text">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="headers">Our vision</h1>
+
+                    <p>
+                        At Join-In, we recognize the constantly evolving nature of our world and understand that harmony and balance can only be achieved through collective care and support. 
+                        We believe that by fostering a sense of community and encouraging empathy, we can create a world where individuals feel valued and supported, and where collaboration and cooperation are the driving forces for positive change.
+
+</main>
+            </div>
+
+            <div class="body-text">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="headers">Our values</h1>
+
+                    <div class="container testimonials">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-3">
+                                <div class="card value-card mx-auto shadow">
+                                    <img src="images/inclusivity.png" class="card-img-top mx-auto d-block" alt="Inclusivity">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Inclusivity</h5>
+                                        <p class="card-text">
+                                            Given that our target audience is female expats, it's important for us to create an inclusive environment that welcomes everyone regardless of their background, culture, or identity. By embracing inclusivity as a core value, we can ensure that everyone feels valued and respected within our community
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card value-card mx-auto shadow">
+                                    <img src="images/community.png" class="card-img-top mx-auto d-block" alt="Community">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Community</h5>
+                                        <p class="card-text">
+                                            Starting a new life in a foreign country can be daunting, so having a supportive community can make all the difference. By prioritizing community as a value, we can help create a sense of belonging among our audience, foster connections, and encourage people to support and help each other
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card value-card mx-auto shadow">
+                                    <img src="images/empowerment.png" class="card-img-top rounded-circle mx-auto d-block shadow" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Empowerment</h5>
+                                        <p class="card-text">
+                                            Moving to a new country can also come with challenges, and we want to help our audience feel empowered to overcome them. By emphasizing empowerment as a value, we can inspire people to take control of their own lives, make informed decisions, and develop the skills and confidence they need to succeed in their new environment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card value-card mx-auto shadow">
+                                    <img src="images/authenticity.png" class="card-img-top rounded-circle mx-auto d-block shadow" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Authenticity</h5>
+                                        <p class="card-text">
+                                            In a world where social media can often promote unrealistic or unattainable lifestyles, we believe in being authentic and transparent. By valuing authenticity, we can create a more genuine and trustworthy brand, build stronger relationships with our audience, and promote a more positive and realistic view of expat life.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+
+            <div class="body-text">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="headers">Our persona</h1>
+                </main>
+            </div>
+
+            <div class="body-image">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <img class="img-fluid" src="images/persona.jpg" alt:"Our average user" />
+                </main>
+            </div>
+
+            <div class="body-text">
+                <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="headers">Meet the team</h1>
+                    <div class="container team-section">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card value-card text-center">
+                                    <img src="images/jesse.jpg" class="card-img-top img-fluid rounded-circle mx-auto d-block shadow" alt="Jesse">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jesse de Groot</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card value-card text-center">
+                                    <img src="images/nia.jpg" class="card-img-top img-fluid rounded-circle mx-auto d-block shadow" alt="Nia">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nia Naseva</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card value-card text-center">
+                                    <img src="images/raheem.jpg" class="card-img-top img-fluid rounded-circle mx-auto d-block shadow" alt="Raheem">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Raheem Pardo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card value-card text-center">
+                                    <img src="images/jeremie.jpg" class="card-img-top img-fluid rounded-circle mx-auto d-block shadow" alt="Jeremie">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jeremie Westerhoff</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </main>
+            </div>
+
+        </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 container-fluid">
+        <div class="col-md-4 d-flex footer-text align-items-center">
+            <span class="">© 2023 JOIN-IN</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex social-icons">
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/join.in__/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" style="color: #e7e5df; font-size: 24px;"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100091773789598" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" style="color: #e7e5df; font-size: 24px;"></i></a></li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>

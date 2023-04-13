@@ -6,38 +6,38 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #e7e5df;
+    font-family: Raleway, sans-serif;
+    background-color: #e7e5df;
 }
 
 h1 {
-	font-family: 'Abril Fatface', cursive;
-	color: #a4386b;
+    font-family: 'Abril Fatface', cursive;
+    color: #a4386b;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+    background-color: #000060;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #a4386b;
+    background-color: #a4386b;
 }
 
 /* Effect on social media buttons */
 
 footer a:hover {
-	opacity: .5;
+    opacity: .5;
 }
 
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
-	font-weight: bold;
+    color: #800000;
+    font-weight: bold;
 }
 
 .navbar-toggler,
@@ -54,11 +54,11 @@ footer a:hover {
     background-image: none;
 }
 
-.navbar-toggler-icon i {
-    color: #e7e5df;
-    font-size: 28px;
-    transition: transform 0.3s ease-in-out;
-}
+    .navbar-toggler-icon i {
+        color: #e7e5df;
+        font-size: 28px;
+        transition: transform 0.3s ease-in-out;
+    }
 
 .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon i {
     transform: rotate(0deg);
@@ -70,20 +70,20 @@ footer a:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon i.fa-bars::before {
-    content: "\f00d";
-}
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon i.fa-bars::before {
+        content: "\f00d";
+    }
 
 .nav-item {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .navbar-brand {
-	padding-left: 10%;
+    padding-left: 10%;
 }
 
 .nav-link {
-	color: #e7e5df;
+    color: #e7e5df;
 }
 
 .navbar-collapse {
@@ -91,12 +91,12 @@ footer a:hover {
 }
 
 .navbar-brand {
-	color: #e7e5df;
+    color: #e7e5df;
 }
 
 .navbar {
-	background-color: rgba(164, 56, 107, .5);
-	transition: background-color 0.3s ease-in-out;
+    background-color: rgba(164, 56, 107, .5);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 @media (max-width: 991.98px) {
@@ -106,18 +106,19 @@ footer a:hover {
 }
 
 .bg-light {
-	background-color: #a4386b !important;
+    background-color: #a4386b !important;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.3);
 }
 
 .body-text {
-	padding-top: 30px;
-	text-align: justify;
-	color: #2a2b2e;
-	background-color: #e7e5df;
-   }
+    padding-top: 30px;
+    text-align: justify;
+    color: #2a2b2e;
+    background-color: #e7e5df;
+}
 
 .main-content .container {
-  max-width: 1200px;
+    max-width: 1200px;
 }
 
 .main-content {
@@ -126,16 +127,16 @@ footer a:hover {
 }
 
 footer {
-	color: #e7e5df;
-	border-top-color: #2a2b2e;
-	background-color: #2a2b2e;
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
+    color: #e7e5df;
+    border-top-color: #2a2b2e;
+    background-color: #2a2b2e;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .footer-text {
-	padding-left: 10%;
+    padding-left: 10%;
 }
 
 
@@ -145,39 +146,39 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-	color: #e7e5df;
-	text-align: center;
+    color: #e7e5df;
+    text-align: center;
     font-size: calc(1.5rem + 1vw);
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.carousel-static-caption .btn {
-	display: inline-block;
-	background-color: #a4386b;
-	color: #e7e5df;
-	font-weight: bold;
-	border: none;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-	border-radius: 25px;
-}
+    .carousel-static-caption .btn {
+        display: inline-block;
+        background-color: #a4386b;
+        color: #e7e5df;
+        font-weight: bold;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 25px;
+    }
 
 
 .navbar-logo {
-	height: 50px;
+    height: 50px;
 }
 
 .carousel-static-caption h1 {
-	color: #e7e5df;
-	text-shadow: 0px 1px 20px #2a2b2e;
+    color: #e7e5df;
+    text-shadow: 0px 1px 20px #2a2b2e;
 }
 
 .social-icons {
-	padding-right: 10%;
+    padding-right: 10%;
 }
 
 .responsive-h1 {
@@ -193,6 +194,7 @@ footer {
     .responsive-h1 {
         font-size: 1.8rem;
     }
+
     .responsive-btn {
         font-size: 0.9rem;
         padding: 0.45rem 0.9rem;
@@ -203,6 +205,7 @@ footer {
     .responsive-h1 {
         font-size: 2.2rem;
     }
+
     .responsive-btn {
         font-size: 1rem;
         padding: 0.5rem 1rem;
@@ -213,6 +216,7 @@ footer {
     .responsive-h1 {
         font-size: 2.5rem;
     }
+
     .responsive-btn {
         font-size: 1.25rem;
         padding: 0.75rem 1.5rem;
@@ -226,21 +230,22 @@ footer {
 }
 
 @media (min-width: 880px) {
-  .responsive-btn {
-    display: none;
-  }
+    .responsive-btn {
+        display: none;
+    }
 }
 
 @media (max-width: 700px) {
-  .responsive-h1 {
-    display: none;
-  }
+    .responsive-h1 {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     .responsive-h1 {
         font-size: 4rem;
     }
+
     .responsive-btn {
         font-size: 1.75rem;
         padding: 1.25rem 2.5rem;
@@ -251,6 +256,7 @@ footer {
     .responsive-h1 {
         font-size: 5rem;
     }
+
     .responsive-btn {
         font-size: 2rem;
         padding: 1.5rem 3rem;
@@ -276,11 +282,23 @@ footer {
     background-color: #a4386b;
     color: #e7e5df;
     max-width: 350px;
-    margin: 0 auto; 
+    margin: auto auto;
     border-radius: 25px;
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.value-card {
+    background-color: #a4386b;
+    color: #e7e5df;
+    max-width: 500px;
+    margin: auto auto;
+    border-radius: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .card-img-top {
@@ -291,9 +309,9 @@ footer {
 }
 
 .card-container {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-body {
@@ -301,11 +319,6 @@ footer {
     flex-grow: 1;
 }
 
-@media (max-width: 767.98px) {
-  .testimonial-card {
-    margin-bottom: 1rem;
-  }
-}
 
 .card-title {
     font-weight: bold;
@@ -313,4 +326,34 @@ footer {
 
 .testimonials {
     padding-bottom: 3rem;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+.sign-up-btn {
+    display: inline-block;
+    background-color: #a4386b;
+    color: #e7e5df;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+#email {
+    border-radius: 25px;
+}
+
+.form-inline {
+    margin-bottom: 3rem;
 }
